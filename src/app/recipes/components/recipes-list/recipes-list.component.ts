@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { Recipe } from "../../model/recipe.model";
 
 @Component({
     selector : 'app-recipes-list',
@@ -6,5 +7,10 @@ import { Component } from "@angular/core";
     styleUrls: ['./recipes-list.component.css']
 })
 export class RecipesListComponent {
+    recipes: Recipe[] = [
+        new Recipe('Chiles rellenos', 'Preparacion de 20 min', '../../../assets/images/chiles.jpg'),
+        new Recipe('Chiles rellenos', 'Preparacion de 20 min', '../../../assets/images/chiles.jpg'),
+        new Recipe('Chiles rellenos', 'Preparacion de 20 min', '../../../assets/images/chiles.jpg')
+    ];
 
 }
