@@ -23,13 +23,6 @@
 </div>
 <div class="row">
   <div class="col-xs-12">
-    <div class="card text-white bg-dark mb-3" style="width: 18rem;" *ngFor="let recipe of recipes">
-      <img class="card-img-top" [src]="recipe.imagePath" alt="Card image cap">
-      <div class="card-body">
-        <h4>{{recipe.name}}</h4>
-        <p class="card-text">{{recipe.description}}</p>
-      </div>
-    </div>
-    <app-recipes-item></app-recipes-item>
+    <app-recipes-item *ngFor="let recipeItem of recipes" [recipe] = "recipeItem" ></app-recipes-item>
   </div>
 </div>

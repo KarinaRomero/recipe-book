@@ -8,9 +8,9 @@ import { Recipe } from "../../model/recipe.model";
 })
 export class RecipesListComponent {
     recipes: Recipe[] = [
-        new Recipe('Chiles rellenos', 'Preparacion de 20 min', '../../../assets/images/chiles.jpg'),
-        new Recipe('Chiles rellenos', 'Preparacion de 20 min', '../../../assets/images/chiles.jpg'),
-        new Recipe('Chiles rellenos', 'Preparacion de 20 min', '../../../assets/images/chiles.jpg')
+        new Recipe('Chiles rellenos', 'Preparacion de 40 min', '../../../assets/images/chiles.jpg'),
+        new Recipe('Caldo de queso', 'Preparacion de 20 min', '../../../assets/images/chiles.jpg'),
+        new Recipe('Taquitos', 'Preparacion de 35 min', '../../../assets/images/chiles.jpg')
     ];
 
 }
